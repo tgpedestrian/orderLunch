@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>orderLunch</title>
+  </head>
+  <body>
+    <h1>今天吃什麼</h1>
+    <div class="mealType">
+      <div class="brunch-city">
+        <label for="brunch">早午餐</label>
+        <input type="checkbox" class="lunch" id="brunch" value="brunch" />
+      </div>
+      <div class="rice-city">
+        <label for="rice">飯</label>
+        <input type="checkbox" class="lunch" id="rice" value="rice" />
+      </div>
+      <div class="noodle-city">
+        <label for="noodle">麵</label>
+        <input type="checkbox" class="lunch" id="noodle" value="noodle" />
+      </div>
+      <div class="buffet-city">
+        <label for="buffet">自助餐</label>
+        <input type="checkbox" class="lunch" id="buffet" value="buffet" />
+      </div>
+      <div class="others-city">
+        <label for="others">其他</label>
+        <input type="checkbox" class="lunch" id="others" value="others" />
+      </div>
+    </div>
+    <div class="heart">
+      <button class="btn-54">
+        <span class="shadow"></span>
+        <span class="depth"></span>
+        <span class="content" id="btn">Button</span>
+      </button>
+    </div>
+    <h2>今天吃 -> <span id="order">什麼呢?</span>!!</h2>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
