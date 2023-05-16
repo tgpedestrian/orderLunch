@@ -115,7 +115,9 @@ btn.addEventListener('click',function(){
                 if (checkCity.some(city => item.category.includes(city))) {
                 arr.push(item);
                 // console.log(arr);
+                
                 setTimeout(function(){
+
                 const random = Math.floor(Math.random() * arr.length);
 
 
